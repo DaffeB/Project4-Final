@@ -1,0 +1,340 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-sc=1.0">
+    <title>E-commerce | YourStore </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/1a598196d2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                   <a href="index.html"><img src="./images/logoo.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems" class="menuit">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products-detail.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+               <a href="cart.html"><img src="./images/cart.png" width="30px" height="30px"></a>
+                <img src="./images/menu-icon.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout<br>A New Style!</h1>
+                    <p>We believe in the power of sport,<br>To move the world.</p>
+                    <a href="" class="btn">Explore Now &#10148;</a>
+                </div>
+                <div class="col-2">
+                    <img src="./images/wallpaper.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----- featured categories ----->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./images/categorie1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./images/categorie2.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./images/categorie3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!----- featured products ----->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./images/essential.jpg">
+                <h4>Women's Crop Top</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$65.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/sleeve.jpg">
+                <h4>Women's Crop Top</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$60.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/sportswear.png">
+                <h4>Sport Swear Black</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$85.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/iconclash.jpg">
+                <h4>Icon Clash White</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <h2 class="title">Lates Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./images/women.jpg">
+                <h4>Nike Sportswear Therma-FIT City Series</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/swoosh.jpg">
+                <h4>Nike Sportswear Swoosh</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$100.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/shoes.jpg">
+                <h4>Nike Air Vapormax 2021 FK</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$200.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/nikedrift.jpg">
+                <h4>Women's Fleece Cropped Training Hoodie</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+    </div>
+    <!----- offer ------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./images/watch1.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusievly Avaiable on <b>YourStore</b></p>
+                    <h1>Smart Watch</h1>
+                    <small>Pebble Pace comes with a 1.4' full touch screen that Monitors your heart rate, Blood
+                        pressure, Oxygen level in blood and sleeps: The advanced technology perfectly syncs with
+                        your lifestyle and monitors your health all day, and night. Comes with a 10 day power
+                        back up.The smartwatch comes with the ability to control your music and get
+                        notifications across all the apps on your phone. The smartwatch also comes with more
+                        than 100 Watch faces. It is a great gifting option for men women and
+                        children.<br></small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------ testimonial -------->
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Made around 20 orders this year there my go to for trainers tracksuits etc never had a
+                        problem always delivered when they say and fast.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <img src="./images/client1.jpg" alt="">
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>My son couldn't find any shoes in-store so we ordered the ones he liked online. He had them
+                        delivered to his door 1½ days later! Fast service and one happy kid! I would definitely order
+                        them like this again since the service is extremely fast.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <img src="./images/client3.jpg" alt="">
+                    <h3>Gregory Smith</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>The Nike online store is a great way to browse and purchase your favourite products. They also
+                        have a free return policy and exchange program.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <img src="./images/client.jpg" alt="">
+                    <h3>Natasha Jean</h3>
+                </div>
+            </div>
+        </div>
+
+        <!---------- brands -------------->
+
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="./images/philips.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="./images/paypal.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="./images/sony.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="./images/visa.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!------- footer ------->
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download Appp for Androind and ios mobile phone</p>
+                        <div class="app-logo">
+                            <img src="./images/googleplay.png">
+                            <img src="./images/aps.png" width="40px">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <p>Our Purpose is to sustainably make the pleasure and benefits of sports accessible to the many
+                        </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>GET HELP</h3>
+                        <ul>
+                            <li>Order Status</li>
+                            <li>Shipping and Delivery</li>
+                            <li>Returns</li>
+                            <li>Payment Options</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook
+                                <img src="./images/facebook.png" width="15px" height="15px">
+                            </li>
+
+                            <li>Twitter
+                                <img src="./images/twitter.png" width="15px" height="15px">
+                            </li>
+
+                            <li>Instagram
+                                <img src="./images/instagram.png" width="15px" height="15px">
+                            </li>
+
+                            <li>YouTube
+                                <img src="./images/youtube.png" width="15px" height="15px">
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">YourStore &copy; CopyRight - 2021 </p>
+            </div>
+        </div>
+
+        <!-------- js fot toggle menu ----------->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if (MenuItems.style.maxHeight == "0px")
+                    {
+                        MenuItems.style.maxHeight = "200px";
+                    }
+                    else
+                    {
+                        MenuItems.style.maxHeight = "200px";
+                    }
+            }
+            
+        </script>
+</body>
+
+</html>
